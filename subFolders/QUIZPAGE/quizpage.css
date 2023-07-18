@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Lexend&family=Plus+Jakarta+Sans:wght@200;400;500&family=Poppins:ital,wght@0,400;0,600;1,600&family=Public+Sans&family=Roboto&family=Roboto+Slab:wght@400;500&family=Rubik&family=Unbounded:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.container_fluid{
+    width: 100%;
+    height: 100vh;
+    background: url("https://www.bergerpaints.com/colour-magazine/Upload/Quiz/Banner/quiz-bnr-may21.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(21, 27, 26, 0.7);
+}
+.heading{
+    display: flex;
+    padding: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    color: #e94b6a;
+}
+.heading p{
+    font-weight: 500;
+    font-size: 25px;
+}
+.heading p a{
+    color: #fff;
+    display: inline-block;
+}
+.quiz-container{
+  color: #fff;
+  height: 60%;
+  width: 50%;
+  margin: 76px auto 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid rgb(183, 170, 170);
+  border-radius: 50px;
+  box-shadow:0px 0px 14px #a79797;
+}
+.quiz-container h1{
+    text-align: center;
+}
+
+.choices{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    width: 70%;
+    margin: 60px auto 0 auto;
+}
+#choices button{
+    list-style-type: none;
+    padding: 20px;
+    width: 40%;
+    border: 1px solid #1bbca3;
+    margin: 20px 0;
+    display: block;
+    cursor: pointer;
+    border-radius: 50px;
+    background: transparent;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+}
+#choices button:hover{
+    background: #1bbca3;
+}
+#choices button.selected {
+    background-color: #2fd1b9;
+    border: 1px solid #2fd1b9;
+  }
+
+.button-container{
+    width: 100%;
+    display: flex;
+    justify-content:space-around;
+}
+.button-container button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-radius: 50px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border: 2px solid #1bbca3;
+    cursor: pointer;
+    margin: 0 10px;
+}
+.button-container button:hover{
+    background: #1bbca3;
+    transition: 1s;
+}
+.result-container{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url("https://static.vecteezy.com/system/resources/previews/001/929/453/non_2x/confetti-and-flag-concept-design-template-holiday-happy-day-background-celebration-illustration-vector.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: none;
+    
+}
+.result-container h2{
+    text-align: center;
+    color: #121111;
+    padding-bottom: 20px;
+    font-size: 40px;
+    padding-top: 15%;
+    color: #e94b6a;
+}
+.result-container h1{
+    text-align: center;
+    color: #121111;
+    padding-bottom: 20px;
+}
+
+#home-page-container button{
+    color: #fff;
+    background: #e94b6a;
+    border-radius: 50px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border: 2px solid #e94b6a;
+    cursor: pointer;
+    margin: 0 10px;
+}
+#home-page-container p{
+    width: 20%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+#home-page-container button:hover{
+    background-color: #ed224b;
+    transition: 1s;
+    color: #fff;
+}
+#home-page-container a{
+    text-decoration: none;
+    color: #0e0d0d;
+}

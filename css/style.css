@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima&family=Caprasimo&family=Jost:ital,wght@0,200;0,300;0,400;0,500;1,200&family=Lexend&family=Plus+Jakarta+Sans:wght@200;400;500&family=Poppins:ital,wght@0,400;0,600;1,600&family=Public+Sans&family=Roboto&family=Roboto+Slab:wght@400;500&family=Rubik&family=Unbounded:wght@200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    width: 100%;
+    height: 100vh;
+    background: url("https://bootstrapmade.com/demo/templates/Shuffle/assets/img/slide/slide-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header::before{
+    content: "";
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: rgba(21, 27, 26, 0.7);
+}
+.container{
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    color: #fff;
+    font-size: 48px;
+    font-weight: 700;
+}
+.container button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    border-radius: 50px; 
+    font-size: 14px;
+    letter-spacing: 1px;
+    padding: 10px 32px;
+    border: 2px solid #1bbca3;
+    cursor: pointer;
+    margin-top: 40px;
+}
+.container a{
+    text-decoration: none;
+    color: #fff;
+}
+.container button:hover{
+    background-color: #1bbca3;
+    transition: 1s;
+
+}
